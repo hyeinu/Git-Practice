@@ -8,7 +8,7 @@
 </head>
 <body>
 Git Stuff
-  Turn this file directory into a repro
+  Turn this file directory into a repro (or adding a repro in the file directory)
     1. git init - makes an empty .git working directory
       1.1 git status - gives you the status of the directory
       1.2 shows you all the untracked files
@@ -23,6 +23,15 @@ Git Stuff
       3.6 :wq (write/save and quit)
     4. git status to show the changes
     5. add/commit (repeat steps 2+3) any changes that you made to the files
-  Branching
+  Pushing the files to the github repro
+    1. git remote add origin https://github.com/hyeinu/Git-Practice.git
+      1.1 the name of the remote usually origin
+      1.2 you don't necessarily need the .git
+      1.3 git remote -v will list all the remote(url)
+    2. git push origin master
+      2.1 pushes all the commits into the "web" or url
+      2.2 origin is the name of the remote location
+      2.3 master is which branch
+      2.4 git push -u origin master (the -u sets the origin master as the default)
 </body>
 </html>
